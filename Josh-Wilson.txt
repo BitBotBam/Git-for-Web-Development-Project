@@ -1,0 +1,176 @@
+1. What is Semantic HTML? 
+
+    HTML that conveys deeper meaning and specificity to the browser and the developer 
+    
+2. What is HTML used for? 
+
+    Marking up, editing, and adding text images and links to a website
+
+3. What is an attribute and where do we put it? 
+
+    it gives the element more information and you put it within the opening tag
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+    H1 stands for header 1 and it is used before the start of a content section.  You can use 6 headers h1 - h6
+
+5. Name two tags that have required attributes
+
+    <img> and <a> 
+
+6. What do we put in the head of our HTML document? 
+
+    Meta data and the title of the page
+
+7. What is an id? 
+
+    A CSS selector for selecting a unique element
+
+8. What elements can I add an id to? 
+
+    Any html element
+
+9. How many times can I use the same id on a page? 
+
+    Once
+
+10. What is a class? 
+
+    A CSS selector that is used for selecting multiple elements
+
+11. What elements can I add a class to? 
+
+    Any HTML element
+
+12. How many times can I use the same class on a page? 
+
+    As many times as you like
+
+13. How do I get my link to open in a new tab?
+
+    Use the target attribute <target="_blank>
+
+14. What is the alt attribute in the image tag used for? 
+
+    It's used for adding a description to the image if it can't be displayed
+
+15. How do I reference an id?
+
+    Use the # symbol
+
+16. What is the difference between a section and a div
+
+    A section is a semantic element container, while div is a generic container
+
+17. What is CSS used for? 
+
+    Styling HTML
+
+18. How to we select an element? Example - every h2 on the page
+
+h2{
+    
+}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+Y   ou would use a #id when you want to select one specfic element, say you have multiple <divs> and you only want to select one.. For a class it's useful for selecting mutiple elements like if I have multiple p tags in different sections and I only want to select a fraction of them.
+
+20. How do we select classes in CSS?
+
+    .class{
+
+    }
+
+21. How do we select a p element with a single class of “human””?
+
+    .human{
+
+    }
+
+22. What is a parent child selector? When would this be useful? 
+
+    Selecting an element with multiple nested elements. It would be useful if you wanted to change the color of an entire section of <p> elements
+
+23. How do you select all links within a div with the class of sidebar?
+
+    .sidebar a{
+
+    }
+
+24. What is a pseudo selector?
+
+    Changes the state of a element like :hover
+
+25. What do we use the change the spacing between lines?
+
+    With the line height property
+
+26. What do we use to change the spacing between letters?
+
+    Use with letter-spacing property
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    Use text-transform: "uppercase" lowercase" "capitals"
+
+28. How do I add a 1px border around my div that is dotted and black?
+
+    div{
+        border: dotted 1px;
+    }
+
+29. How do I select everything on the page? 
+
+
+    use the global selector *{
+
+    }
+
+30. How do I write a comment in CSS?
+
+    Use /* COMMENT */
+
+31. How do I find out what file I am in, when I am using the command line? 
+
+    "pwd"
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    " ls"
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    Use "rm" its scary because it removes the file permantely with no prompts 
+    (Although I could find the file in my trash can on mac)
+
+34. Why should I use version control? 
+
+    To better collaborate with developers and keep tabs on the history of a project
+
+35. How often should I commit to github?
+
+Always
+
+36. What is the command we would use to push our repo up to github? 
+
+    git push -u origin branch-name
+
+37. Walk me through Lambda's git flow. 
+
+    1. Fork the repo
+    2. Use the github clone feauture
+    3. Specify where you want to repo to be with the terminal
+    4. Use the git clone <repo link> command
+    5. Navigate to the newely cloned repo
+    6. git checkout - b to create your own branch 
+    7. WORK
+    8. WORK
+    9. WORK
+    10. git. add will update the changes and get them ready for committing
+    11. git push -u origin (branch name) Will push all commits up to github
+    12. Use the dropdown branch selector to select your version
+    13. Click your name branch
+    14. Create new pull request button
+    15. Create Pull Request "make sure to select your forked repo"
+    16. YOUR DONE.. YAY
